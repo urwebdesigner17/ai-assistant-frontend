@@ -11,7 +11,7 @@ export default function App() {
   );
   const [mode, setMode] = useState(""); // track which button is active
 
-  const API_URL = "https://ai-assistant-backend-s7kq.onrender.com/api/chat"; // backend endpoint
+  const API_URL = "https://ai-assistant-backend.onrender.com/api/chat"; // backend endpoint
 
   const handleEnable = () => {
     setEnabled(true);
